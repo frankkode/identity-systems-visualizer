@@ -9,9 +9,10 @@ An interactive visualization tool for comparing traditional, blockchain-based, a
 
 ![Screenshot of Identity Systems Visualizer](https://imgur.com/xQOUB7p.png)
 
-(https://imgur.com/gp7Ai55.png)
+![Analysis](https://imgur.com/gp7Ai55.png)
 
-(https://imgur.com/nly33bN.png)
+![Use case](https://imgur.com/nly33bN.png)
+![chat](https://imgur.com/gZ24BeL.png)
 
 ## 📑 Table of Contents
 
