@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ScreenSizeNotification from './ScreenSizeNotification';
 import Footer from './Footer';
 import ResponsiveNavbar from './ResponsiveNavbar';
 import { 
@@ -502,7 +503,8 @@ const ModernIdentitySystemsApp = () => {
       <nav className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white shadow-lg">
       <ResponsiveNavbar activeView={activeView} setActiveView={setActiveView} />
       </nav>
-      
+      {/* guide screen */}
+      <ScreenSizeNotification setActiveView={setActiveView} />
       {/* Main content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {activeView === 'dashboard' && (
@@ -622,6 +624,13 @@ const ModernIdentitySystemsApp = () => {
         
         {activeView === 'architectures' && (
           <div className="space-y-8">
+            {/* Show on mobile only */}
+    <div className="sm:hidden bg-blue-50 p-4 rounded-lg mb-4 border border-blue-100">
+      <p className="text-sm text-blue-700">
+        <span className="font-medium">Tip:</span> For the best experience with animated visualizations, 
+        try viewing on a larger screen or rotate your device to landscape mode.
+      </p>
+    </div>
             <div className="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
               <h2 className="text-xl font-semibold mb-6">System Architecture Comparison</h2>
               
