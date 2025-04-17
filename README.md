@@ -7,7 +7,7 @@
 
 An interactive visualization tool for comparing traditional, blockchain-based, and hybrid digital identity systems. Based on academic research exploring the comparative strengths and tradeoffs of different identity management architectures.
 
-![Screenshot of Identity Systems Visualizer](https://imgur.com/a/04u3Kmn)
+![Screenshot of Identity Systems Visualizer](https://imgur.com/xQOUB7p.png),(https://i.imgur.com/gp7Ai55.png),(https://imgur.com/nly33bN.png)
 
 ## 📑 Table of Contents
 
